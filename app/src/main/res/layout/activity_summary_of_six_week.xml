@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryOfSixWeek"
+    android:background="@drawable/gradient_background"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="61dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="334dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="160dp"
+        android:text="Six Week Courses"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ChildMindingButton"
+        android:layout_width="220dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="288dp"
+        android:backgroundTint="#80604D"
+        android:text="Child Minding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CookingButton"
+        android:layout_width="220dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#80604D"
+        android:text="Cooking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChildMindingButton" />
+
+    <Button
+        android:id="@+id/GardenButton"
+        android:layout_width="220dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#80604D"
+        android:text="Garden Maintenance Course"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CookingButton" />
+
+    <Button
+        android:id="@+id/HomeButton2"
+        android:layout_width="220dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#80604D"
+        android:text="HomePage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GardenButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
